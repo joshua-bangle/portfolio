@@ -19,13 +19,13 @@
 
 .Triangle {
     position: absolute;
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     background-color: rgb(130, 177, 161);
     transform: rotate(45deg);
     margin-left: 80%;
     z-index: 1;
     right: -250px;
-    bottom: 400px;
+    top: -100px;
     overflow: hidden;
 }
