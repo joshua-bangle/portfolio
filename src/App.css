@@ -2,17 +2,20 @@ html, body {
   background-color: #121212;
   z-index: 4;
   overflow-x: hidden;
+  font-family: 'Roboto 300';
 }
 
 .App {
   display: inline;
   z-index: 2;
   text-align: center;
+
 }
 .card-display {
   position: relative;
   z-index: 4;
   background-color: #121212;
+  color: white;
 }
 .App-logo {
   height: 40vmin;

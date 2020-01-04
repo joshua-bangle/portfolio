@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './fonts/Roboto 300.ttf'
+import './fonts/Roboto 500.ttf'
+import './fonts/Roboto 700.ttf'
+import './fonts/Roboto regular.ttf'
 
 import * as serviceWorker from './serviceWorker';
 
