@@ -1,12 +1,12 @@
 .Card {
     position: relative;
-    width: 300px;
+    width: 30%;
     height: 200px;
     border-radius: 10px;
-    background-color: #939393;
+    color: #4e688a;
     padding: 0px 20px;
     display: inline-block;
-    border: 1px solid #333333;
+
     justify-content: left;
     margin: 20px;
     z-index: 3;

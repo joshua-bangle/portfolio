@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Hero.module.css'
+import logo from './heroLogo.png'
 
 const Hero = (props) => {
     return (
@@ -9,10 +10,9 @@ const Hero = (props) => {
             <br />
             <br />
             <p className={styles.HeroText}>Web Developer</p>
-            <div className={styles.Triangle}>
-                
-            </div>
+
         </div>
+        <img src={logo} alt='logo' className={styles.HeroLogo} />
     </div>
     )
 }
