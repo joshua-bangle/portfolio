@@ -1,5 +1,15 @@
 .Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #2b415e;
     min-height: 160px;
     z-index: 2;
+}
+.Links{
+    font-size: 1.2em;
+    
+}
+.ListStyle {
+    list-style: none;
 }

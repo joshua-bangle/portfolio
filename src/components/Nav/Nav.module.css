@@ -1,0 +1,20 @@
+.Nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(228, 228, 228);
+    font-size: 1.2em;
+}
+.liStyling {
+    list-style: none;
+    display: inline;
+}
+.Links {
+    padding-right: 55px;
+}
+.Logo{
+    padding-left: 55px;
+}

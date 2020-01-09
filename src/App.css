@@ -3,13 +3,14 @@ html, body {
   z-index: 4;
   overflow-x: hidden;
   font-family: 'Roboto 300';
+  
 }
 
 .App {
   display: inline;
   z-index: 2;
   text-align: center;
-
+  
 }
 .card-display {
   position: relative;

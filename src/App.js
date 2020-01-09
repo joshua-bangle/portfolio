@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Card from './components/Card/Card'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav'
 
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
   // }
   return (
     <div className="App">
+      <Nav />
+      <Hero>
       
-      <Hero />
+      </Hero>
       <About />
       <div className='card-display'>
         <Card title="Test Card">

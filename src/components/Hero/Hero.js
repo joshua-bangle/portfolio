@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import logo from './heroLogo.png'
+// import Nav from '../Nav/Nav'
 
 const Hero = (props) => {
     return (
     <div className={styles.Hero}>
+        {/* <Nav /> */}
         <div>
+            
             <p className={styles.HeroText}>Josh Bangle</p>
             <br />
             <br />
