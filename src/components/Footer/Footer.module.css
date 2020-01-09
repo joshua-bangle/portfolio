@@ -5,6 +5,8 @@
     background-color: #2b415e;
     min-height: 160px;
     z-index: 2;
+    font-family: "Roboto 300";
+    color: rgb(228, 228, 228);
 }
 .Links{
     font-size: 1.2em;
@@ -12,4 +14,17 @@
 }
 .ListStyle {
     list-style: none;
+}
+.Icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.Icons a{
+    margin: 0 8px;
+    color: black;
+    
+}
+.Icons a:hover {
+    color: white;
 }
