@@ -8,13 +8,38 @@
     color: rgb(228, 228, 228);
     font-size: 1.2em;
 }
+.Nav ul {
+    list-style: none;
+    flex-direction: row;
+}
 .liStyling {
     list-style: none;
     display: inline;
 }
 .Links {
-    padding-right: 55px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 55px;
+}
+.Links li {
+    margin-right: 55px;
+}
+.Links a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Links a:hover,
+.Links a:active {
+    text-decoration: underline;
 }
 .Logo{
     padding-left: 55px;
+}
+.Logo a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Logo a:hover,
+.Logo a:active {
+    text-decoration: underline;
 }

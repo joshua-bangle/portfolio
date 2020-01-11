@@ -1,20 +1,23 @@
 import React from 'react'
 import styles from './Nav.module.css'
 
+
+
 const Nav = (props) => {
     return(
         <nav className={styles.Nav}>
-            <div>
-                <p className={styles.Logo}>Logo</p>  
-            </div>
-            <div>
-                <span className={styles.Links}>
-                    Projects
-                </span>    
-                <span className={styles.Links}>
-                    About
-                </span>    
-            </div>
+            <ul>
+                <li id="logo" className={styles.Logo}><a href='/'>Logo</a></li>  
+            </ul>
+            <ul className={styles.Links}>
+                <li>
+                    <a href="/">Projects</a>
+                </li>    
+
+                <li>
+                    <a href="/blog">Blog</a>
+                </li> 
+            </ul>
             
         </nav>
     )

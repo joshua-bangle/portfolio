@@ -3,7 +3,7 @@ import styles from './About.module.css'
 
 const About = (props) => {
     return (
-        <div className={styles.About}>
+        <div id='about' className={styles.About}>
             <h1 className={styles.Header}>Hi, I'm Josh.</h1>
             <p className={styles.AboutText}>
                 I'm a junior web developer based in Dallas, TX. My passion for tech began as a child, always surrounded with the latest consoles and computers. Acting and Voice Acting have been 

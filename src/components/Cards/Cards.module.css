@@ -1,0 +1,26 @@
+.Card {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid #1f385a; */
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 10px;
+    color: #4e688a;
+    padding: 0px 20px;
+    display: inline-block;
+    justify-content: left;
+    margin: 20px;
+    z-index: 3;
+}
+.Card a {
+    text-decoration: none;
+    color: #4e688a;
+}
+.Card a:hover {
+    text-decoration: underline;
+}
+.Image img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: fill;
+}

@@ -1,35 +1,29 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import About from './components/About/About'
-import Card from './components/Card/Card'
-import Hero from './components/Hero/Hero'
+
+
+import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import Nav from './components/Nav/Nav'
+import Card from './components/Cards/Card/Card'
 
 
 function App() {
   // var lightText = {
   //   color: 'white'
   // }
-  return (
-    <div className="App">
-      <Nav />
-      <Hero>
-      
-      </Hero>
-      <About />
-      <div className='card-display'>
-        <Card title="Test Card">
-          This is my test card
-        </Card>
-        <Card title="second card">
-          this is my second card
-        </Card>
-      </div>
-      <Footer />
-    </div>
 
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Route path='/' exact component={Home} />
+        <Route path='/card1' component={Card} />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

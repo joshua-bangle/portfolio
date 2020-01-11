@@ -7,15 +7,22 @@
     align-items: center;
     justify-content: space-around;
 }
-.HeroText {
-    margin: auto;
+.HeroText p{
+    margin: 30px 0; 
+    
     text-align: left;
     font-size: 4.5em;
     font-family: 'Roboto 500';
     color: rgb(228, 228, 228);
-
+    
 }
-.HeroLogo{
-    height: 70%;;
+.HeroLogo {
+    height: 70%;
     float: right;
+    
+}
+.HeroLogoContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
 }

@@ -1,21 +1,16 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import logo from './heroLogo.png'
-// import Nav from '../Nav/Nav'
+
 
 const Hero = (props) => {
     return (
     <div className={styles.Hero}>
-        {/* <Nav /> */}
         <div>
-            
-            <p className={styles.HeroText}>Josh Bangle</p>
-            <br />
-            <br />
-            <p className={styles.HeroText}>Web Developer</p>
-
+            <p className={styles.HeroText}>{props.children}</p>
         </div>
-        <img src={logo} alt='logo' className={styles.HeroLogo} />
+        <div className={styles.HeroLogoContainer}>
+            <img src={props.logo} alt={props.alt} className={styles.HeroLogo}/>
+        </div>
     </div>
     )
 }
