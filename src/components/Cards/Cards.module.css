@@ -1,26 +1,37 @@
 .Card {
+    background-color: rgb(245, 245, 245);
     position: relative;
     width: 30%;
-    height: 300px;
+    height: auto400px;
     /* border: 1px solid #1f385a; */
     box-shadow: 1px 1px 4px grey;
     border-radius: 10px;
-    color: #4e688a;
-    padding: 0px 20px;
+    color: #353d47;
+    padding: 0px 20px 10px;
     display: inline-block;
     justify-content: left;
-    margin: 20px;
+    margin: 0px 20px 100px 20px;
     z-index: 3;
+    transition: all .1s ease-in-out;
 }
+.Card:hover {
+    transform: scale(1.02);
+}
+
 .Card a {
     text-decoration: none;
-    color: #4e688a;
+    color: #353d47;
 }
 .Card a:hover {
     text-decoration: underline;
 }
+.Image{
+    width: 100%;
+}
 .Image img{
     width: 100%;
+    margin-top: 10px;
     border-radius: 5px;
     object-fit: fill;
+    box-shadow: inset 0 0 10px #000000;
 }

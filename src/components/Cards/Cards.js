@@ -7,11 +7,12 @@ const Cards = (props) => {
     
     return (
         <div className={styles.Card}>
-            <div className={styles.Image}>
+            <a href={props.page}><div className={styles.Image}>
                 <img src={IDE} alt='IDE pic' />
-            </div>
+            </div></a>
             <a href={props.page}><Typography variant='h4'>{props.title}</Typography></a>
-            <Typography variant='body1'>{props.children}</Typography>
+            <br />
+            <Typography variant='h5'>{props.children}</Typography>
         </div>
     )
 }
