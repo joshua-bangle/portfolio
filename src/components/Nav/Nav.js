@@ -1,9 +1,12 @@
 import React from 'react'
-import styles from './Nav.module.css'
+import styles from './Nav.module.scss'
+
+
 
 
 
 const Nav = (props) => {
+
     return(
         <nav className={styles.Nav}>
             <ul>
@@ -18,6 +21,7 @@ const Nav = (props) => {
                     <a href="/blog">Blog</a>
                 </li> 
             </ul>
+
             
         </nav>
     )

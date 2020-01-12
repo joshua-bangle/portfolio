@@ -4,16 +4,29 @@
     align-items: center;
     background-color: #2b415e;
     min-height: 160px;
-    z-index: 2;
     font-family: "Roboto 300";
     color: rgb(228, 228, 228);
 }
 .Links{
     font-size: 1.2em;
-    
+    height: 100%;
+}
+.Links a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Links a:hover {
+    text-decoration: underline;
 }
 .ListStyle {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+ul li {
+    margin: 5px 16px 5px 16px;
 }
 .Icons{
     display: flex;
@@ -22,9 +35,9 @@
 
 .Icons a{
     margin: 0 8px;
-    color: black;
-    
+    color: rgb(245, 245, 245);
+
 }
 .Icons a:hover {
-    color: white;
+    color: rgb(165, 165, 165);
 }

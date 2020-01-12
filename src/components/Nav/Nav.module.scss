@@ -1,0 +1,84 @@
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+    @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1800px) { @content; }
+}
+
+.MenuIcon{
+    display: none;
+    @include for-phone-only{
+        display: inline-block;
+        float: right;
+        margin-right: 30px;
+    }
+}
+.Nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(228, 228, 228);
+    font-size: 1.2em;
+}
+.Nav ul {
+    @include for-phone-only {
+        padding: 0;
+    }
+    list-style: none;
+    flex-direction: row;
+}
+.liStyling {
+    list-style: none;
+    display: inline;
+}
+.Links {
+    @include for-phone-only {
+        // display: none;
+
+    }    
+    display: flex;
+    flex-direction: row;
+    padding: 0 55px;
+
+}
+.Links li {
+    @include for-phone-only {
+        margin-right: 16px;
+    }
+    margin-right: 55px;
+}
+.Links a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Links a:hover,
+.Links a:active {
+    text-decoration: underline;
+}
+.Logo{
+    @include for-phone-only{
+        padding-left: 12%;
+    }
+    padding-left: 55px;
+
+}
+.Logo a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Logo a:hover,
+.Logo a:active {
+    text-decoration: underline;
+}

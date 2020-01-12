@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Cards.module.css'
+import styles from './Cards.module.scss'
 import Typography from '@material-ui/core/Typography'
 import IDE from './testide.png'
 

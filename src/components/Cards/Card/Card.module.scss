@@ -1,0 +1,62 @@
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+    @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1800px) { @content; }
+}
+
+
+.Card {
+    font-family: 'Roboto';
+    margin-top: 150px;
+}
+
+
+.CardText {
+    width: 40%;
+    padding-left: 12%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Roboto 300';
+    font-size: 1.3em;
+    color: #415672;
+    @include for-phone-only {
+        width: 85%;
+        font-size: 1.1em;
+        margin: 40px 20px 50px 20px;
+        padding: 0;
+    }
+}
+
+.Header {
+    font-family: 'Roboto';
+    font-size: 3em;
+    color: #415672;
+    margin-bottom: 100px;
+}
+.SectionHeader {
+    @include for-phone-only{
+        text-align: left;
+        padding-left: 5%;
+    }
+    font-family: 'Roboto';
+    font-size: 2.2em;
+    color: #415672;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 12%;
+}
+.Skip {
+    font-size: 0.5em;
+}

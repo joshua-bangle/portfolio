@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './Card.module.css'
+import styles from './Card.module.scss'
 import Hero from '../../Hero/Hero'
 import ScrollIntoView from 'react-scroll-into-view'
 import Button from '@material-ui/core/Button'
@@ -31,19 +31,20 @@ const Card = () => {
                 I chose React.js to create my portfolio. It's fast, clean, I'm a fan of modular code, and most importantly, I adore JavaScript. As much of a sin in the programming world as that is to say, functions are my jam.
                 But you're not here to read about my favorite languages, you're here to see why, and maybe how, I did what I did here. I'll go ahead and highlight some of my proudest features of this simple little (forever unfinished) portfolio and blog.
             </p>
-            <h2 id="layout" className={styles.SectionHeader}>Layout</h2>
+            <h2 id="layout" className={styles.SectionHeader}>Challenge 1: Layout and Styling</h2>
             <p className={styles.CardText}>
                 I chose to use an entirely flex-box based approach to my site, and avoided a grid system. Grids certainly have their place in styling, but can overcomplicate things if used where they aren't needed. 
-                Since the majority of my blogs will likely consist of 2 columns, one being text and the other a picture, some good-ol' justify-content: space-around should do the trick. 
+                Since the majority of my blogs will likely consist of 2 columns, one being text and the other a picture, some good-ol' justify-content: space-around should do the trick. I've also opted for the Material-ui
+                library for button and icon styling, and will likely be taking advantage of it's many general use components.
             </p>
-            <h2 className={styles.SectionHeader}>Challenge 1: React Routing</h2>
+            <h2 className={styles.SectionHeader}>Challenge 2: React Routing</h2>
             <p className={styles.CardText}>
                 I'd heard a ton about single page applications with a multipage feel using React, and that was one of the major pulls for me (that and JavaScript. Looooooove that JavaScript). But coming from Rails and 
                 setting up routes using the full MVC structure, one of the first things to study up on was React Routing. Having the ability to call a component into place with a simple Route element was a real and true
                 breath of fresh air. Moving forward I expect things to be a bit more complicated once I'm on a larger project with a team, not everything can be a single page application. But taking advantage of React's 
                 ability to re-render the DOM so seamlessly with the Route component really cemented my choice to use it as my framework.
             </p>
-            <h2 className={styles.SectionHeader}>Challenge 2: Nesting Components</h2>
+            <h2 className={styles.SectionHeader}>Challenge 3: Nesting Components</h2>
             <p className={styles.CardText}>
                 As components started as a foreign concept to me just a few weeks ago, learning to utilize them in the most effecient manner is something that will likely take me quite a while to master. Even now (ESPECIALLY now), 
                 if you have come here as someone familiar with React, you have likely already noticed some ineffeciencies in my component structure. Using components within other components seems like such a powerful tool, and is something that
