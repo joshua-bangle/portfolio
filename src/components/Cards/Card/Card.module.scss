@@ -60,3 +60,12 @@
 .Skip {
     font-size: 0.5em;
 }
+.Published {
+    @include for-phone-only {
+        padding-left: 5%;
+    }
+    font-family: 'Roboto 300';
+    text-align: left;
+    padding-left: 12%;
+    margin-top: -50px;
+}

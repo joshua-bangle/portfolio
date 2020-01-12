@@ -15,6 +15,7 @@ const Card = () => {
             </Hero>
             <div className={styles.Card}>
             <h2 className={styles.Header}>Hello World...<ScrollIntoView selector='#layout'><Button className={styles.Skip}>(Click here to skip to the important bits)</Button></ScrollIntoView></h2>
+            <p className={styles.Published}>Published Jan. 10th, 2019</p>
             
             <p className={styles.CardText}>
                 First of all, thanks for taking the time to read my "blog" of sorts. Throughout these posts, I will be showing off some of my past projects, as well as doing a (in a perfect world) weekly post of challenges and accomplishments
@@ -40,8 +41,11 @@ const Card = () => {
             <h2 className={styles.SectionHeader}>Challenge 2: React Routing</h2>
             <p className={styles.CardText}>
                 I'd heard a ton about single page applications with a multipage feel using React, and that was one of the major pulls for me (that and JavaScript. Looooooove that JavaScript). But coming from Rails and 
-                setting up routes using the full MVC structure, one of the first things to study up on was React Routing. Having the ability to call a component into place with a simple Route element was a real and true
-                breath of fresh air. Moving forward I expect things to be a bit more complicated once I'm on a larger project with a team, not everything can be a single page application. But taking advantage of React's 
+                setting up routes using the full MVC structure, one of the first things to study up on was React Routing. I discovered the speed at which ditching full page rendering (thanks to the virtual DOM usage 
+                with react) and relying on the client's ability to swap out JavaScript on the fly, versus Rails Postgresql and MVC method of handling view rendring 
+                (contact the route, check the action, action says this, model gives that, spit out the view, WHEW). Having the ability to call a component into place with a simple Route element was a real and true
+                breath of fresh air. Of course frameworks like Rails have their place, especially when that database storage is really needed, but for my simple portfolio, React hits the nail right on the noggin.
+                Moving forward I expect things to be a bit more complicated once I'm on a larger project with a team, not everything can be a single page application. But taking advantage of React's 
                 ability to re-render the DOM so seamlessly with the Route component really cemented my choice to use it as my framework.
             </p>
             <h2 className={styles.SectionHeader}>Challenge 3: Nesting Components</h2>
@@ -50,7 +54,7 @@ const Card = () => {
                 if you have come here as someone familiar with React, you have likely already noticed some ineffeciencies in my component structure. Using components within other components seems like such a powerful tool, and is something that
                 I have begun to explore and enjoy up to this point. But of course, I've only just scratched the surface there.
             </p>
-            <h2 className={styles.SectionHeader}>Week 1 wrap up</h2>
+            <h2 className={styles.SectionHeader}>Week 1 Wrap Up</h2>
             <p className={styles.CardText}>
                 Perhaps the biggest challenge up to this point has been just simply releasing this portfolio in an "unfinished" state. But if I were to wait until it felt perfect, it would never see the light of day. So here we are, 
                 a junior dev in the first steps of getting out there, showing my code to the world. Thanks for reading, and I look forward to many more posts to come.
@@ -58,7 +62,6 @@ const Card = () => {
             </div>
             <br />
                 <ScrollIntoView selector='#logo'><Button variant="outlined">Back to top</Button></ScrollIntoView>
-
             <br />
         </div>
     )
