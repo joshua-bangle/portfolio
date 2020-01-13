@@ -14,6 +14,9 @@ const Nav = (props) => {
             </ul>
             <ul className={styles.Links}>
                 <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
                     <a href="/">Projects</a>
                 </li>    
 

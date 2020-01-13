@@ -1,0 +1,110 @@
+.Container {
+    @media (max-width: 700px){
+        display: none;
+    }
+    @media (max-width: 900px){
+        width: 230px;
+    }
+    position: absolute;
+    right: 200px;
+    bottom: 240px;
+    display: flex;
+    width: 385px;
+    justify-content: space-between;
+}
+.Container > * {
+    opacity: 60%;
+}
+.Col1 {
+    @media (max-width: 900px){
+        height: 365px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 95px;
+    // border: 1px solid black;
+    margin-top: 95px;
+}
+.Col1 > div {
+    height: 18%;
+    // border: 1px solid black;
+}
+.Col1 :nth-child(1){
+    background-color: #466792b6;
+}
+.Col1 :nth-child(2){
+    background-color: #21354edc;
+}
+.Col1 :nth-child(3){
+    background-color: #38495ea8;
+}
+.Col1 :nth-child(4){
+    background-color: #4d6a8da2;
+}
+.Col1 :nth-child(5){
+    background-color: #1129475e;
+}
+.Col2 {
+    @media (max-width: 900px){
+        height: 365px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 95px;
+    // border: 1px solid red;
+    margin-top: 165px;
+}
+.Col2 > div {
+    height: 18%;
+    // border: 1px solid red;
+}
+.Col2 :nth-child(1){
+    background-color: #243a57b6;
+}
+.Col2 :nth-child(2){
+    background-color: #4e73a1dc;
+}
+.Col2 :nth-child(3){
+    background-color: #193455a8;
+}
+.Col2 :nth-child(4){
+    background-color: #23354ba2;
+}
+.Col2 :nth-child(5){
+    background-color: #5289cc5e;
+}
+.Col3 {
+    @media (max-width: 900px){
+        height: 365px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 95px;
+    margin-top: 20px;
+    // border: 1px solid green;
+}
+.Col3 > div {
+    height: 18%;
+    // border: 1px solid green;
+}
+.Col3 :nth-child(1){
+    background-color: #466792b6;
+}
+.Col3 :nth-child(2){
+    background-color: #21354edc;
+}
+.Col3 :nth-child(3){
+    background-color: #38495ea8;
+}
+.Col3 :nth-child(4){
+    background-color: #4d6a8da2;
+}
+.Col3 :nth-child(5){
+    background-color: #1129475e;
+}
