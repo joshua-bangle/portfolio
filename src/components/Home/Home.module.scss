@@ -1,0 +1,27 @@
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+    @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1600px) { @content; }
+}
+
+.Header {
+    text-align: center;
+    font-family: 'Roboto 500';
+    font-size: 3.5em;
+    color: #415672;
+    margin: 100px 0 40px 0;
+
+    @include for-phone-only {
+        margin-bottom: 50px;
+    }
+}

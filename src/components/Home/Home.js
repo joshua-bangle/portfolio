@@ -3,6 +3,9 @@ import React from 'react'
 import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
 import HomeImg from './HomeImg.png'
+import IDE from '../Cards/testide.png'
+import Spaz from './spaz.png'
+import styles from './Home.module.scss'
 
 const Home = () => {
     return(
@@ -17,10 +20,23 @@ const Home = () => {
             </Hero>
             
             <br />
-            <h1>Projects</h1>
+            
+                <h1 className={styles.Header}>Projects</h1>
+            
+            
+
+            <Cards
+            title='Spaz'
+            page='/spaz'
+            image={Spaz}>
+                Video hosting, Secure Payments, User Authentication.
+            </Cards>
+            <hr />
+            <h1 className={styles.Header}>Blog</h1>
             <div className='card-display'>
             <Cards title="Creating my first Portfolio"
-            page='/card1'>
+            page='/card1'
+            image={IDE}>
                 The challenges I faced while learning React, and how I overcame them.
             </Cards>
 

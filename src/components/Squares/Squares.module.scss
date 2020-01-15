@@ -12,8 +12,9 @@
     width: 385px;
     justify-content: space-between;
 }
-.Container > * {
+.Container > * * {
     opacity: 60%;
+    border-radius: 8px;
 }
 .Col1 {
     @media (max-width: 900px){
