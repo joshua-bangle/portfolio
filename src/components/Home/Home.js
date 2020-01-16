@@ -46,4 +46,6 @@ const Home = () => {
 }
 export default Home
 
-
+//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change
+//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change
+//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change

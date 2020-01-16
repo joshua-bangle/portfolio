@@ -22,7 +22,7 @@ const Card = () => {
                 that I come across in my coding journey.
             </p>
             <p className={styles.CardText}>
-                Now, as the name suggests, I want to talk about this portfoliio. This is likely the most daunting challenge I've come across up to this point,
+                Now, as the name suggests, I want to talk about this portfolio. This is likely the most daunting challenge I've come across up to this point,
                 not because it is particularly difficult, but because it is <i>mine</i>. I am a professional actor and voice actor (on top of this whole coding thing), and as
                 a performer, I strive to put my best foot forward. If I'm not careful, I can end up spending far too much time on every little detail; make sure the margin is perfect,
                 this shade of grey is juuuuuuuust too bright, it might hurt someone's eyes in a dark room, that header is a tad TOO centered... After going through multiple iterations, and stalling for as long as possible,

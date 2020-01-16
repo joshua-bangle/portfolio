@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Nav />
+        {/* <Nav /> */}
         <Route path='/' exact component={Home} />
         <Route path='/card1' component={Card} />
         <Route path='/about' component={About} />

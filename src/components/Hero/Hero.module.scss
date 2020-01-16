@@ -14,7 +14,63 @@
     @media (min-width: 1800px) { @content; }
 }
 
+@keyframes glidein {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
+.Links {
+    @include for-phone-only {
+        // display: none;
+    }    
+    // padding: 0 55px;
+    list-style: none;
+    font-size: 2em;
+}
+.Links li {
+    @include for-phone-only {
+        margin-right: 16px;
+    }
+    margin-right: 55px;
+}
+.Links a {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+.Links a:hover,
+.Links a:active {
+    text-decoration: underline;
+}
+
+.Nav {
+    background-color: #2b415e;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: right;
+    left: 0%;
+    padding: 0 8px 0 0;
+    // border: 1px solid black;
+    width: 380px;
+    z-index: 2;
+    border-right: 3px solid #203046;
+}
+.Nav ul {
+    padding: 0;
+}
+.Nav ul li {
+    // border: 1px solid black;
+    width: 100%;
+    margin: 16px 0 16px 0;
+}
 .Hero {
     @include for-phone-only{
         justify-content: flex-start;
@@ -34,8 +90,15 @@
     @include for-phone-only{
         font-size: 3em;
         margin: 10px 0 0 10px;
-    }    
-    margin: 30px 0 0 50px; 
+    }
+
+    opacity: 0;
+    animation-name: glidein;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation: fadein 1.3s .2s 1 forwards,
+    glidein 1s .2s 1 forwards;
+    margin: 30px 0 0 55px; 
     text-align: left;
     font-size: 4.5em;
     font-family: 'Roboto 500';

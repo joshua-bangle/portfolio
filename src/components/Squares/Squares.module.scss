@@ -12,6 +12,15 @@
     width: 385px;
     justify-content: space-between;
 }
+
+@keyframes glidein {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
 .Container > * * {
     opacity: 60%;
     border-radius: 8px;
