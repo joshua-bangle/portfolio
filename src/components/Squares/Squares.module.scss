@@ -3,13 +3,14 @@
         display: none;
     }
     @media (max-width: 900px){
-        width: 230px;
+        width: 240px;
+        right: 70px;
     }
     position: absolute;
     right: 200px;
-    top: 5%;
+    top: 1%;
     display: flex;
-    width: 385px;
+    width: 345px;
     justify-content: space-between;
 }
 
@@ -28,14 +29,15 @@
 .Col1 {
     @media (max-width: 900px){
         height: 365px;
+        width: 65px;
     }
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 550px;
+    height: 520px;
     width: 95px;
     // border: 1px solid black;
-    margin-top: 95px;
+    margin-top: 75px;
 }
 .Col1 > div {
     height: 18%;
@@ -59,14 +61,15 @@
 .Col2 {
     @media (max-width: 900px){
         height: 365px;
+        width: 65px;
     }
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 550px;
+    height: 520px;
     width: 95px;
     // border: 1px solid red;
-    margin-top: 165px;
+    margin-top: 145px;
 }
 .Col2 > div {
     height: 18%;
@@ -90,13 +93,14 @@
 .Col3 {
     @media (max-width: 900px){
         height: 365px;
+        width: 65px;
     }
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 550px;
+    height: 520px;
     width: 95px;
-    margin-top: 20px;
+    margin-top: 0px;
     // border: 1px solid green;
 }
 .Col3 > div {

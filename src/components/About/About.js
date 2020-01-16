@@ -9,7 +9,8 @@ const About = (props) => {
     return (
         <Aux>
             <Hero>
-                <p>About me</p>
+                <p>Josh Bangle</p>
+                <p>Web Developer</p>
             </Hero>
             <h1 className={styles.Header}>Hi, I'm Josh.</h1>
             <div id='about' className={styles.About}>

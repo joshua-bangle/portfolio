@@ -14,8 +14,7 @@ const Home = () => {
                 logo={HomeImg}
                 alt='Home Image'>
                 <div>                  
-                    <p>Josh Bangle</p>
-                    <p>Web Developer</p>
+                    <p>Experience</p>
                 </div>
             </Hero>
             
