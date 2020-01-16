@@ -86,10 +86,15 @@
     color: rgb(228, 228, 228);
     text-decoration: none;
 }
-.Links a:hover,
-.Links a:active {
+.Links a:hover {
     text-decoration: underline;
 }
+.Links a.Active {
+    font-family: 'Roboto 700';
+    // background-color: #203046;
+
+}
+
 // .isActive {
 //     color: red;
 // }
