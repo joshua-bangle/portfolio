@@ -29,7 +29,7 @@ const About = (props) => {
                     </p>
                 </div>
                 <div className={styles.ImgContainer}>
-                    <img src={Josh} alt='Josh' className={styles.Image}/>
+                    <img src={Josh} alt='Corny Headshot' className={styles.Image}/>
                 </div>
 
             </div>

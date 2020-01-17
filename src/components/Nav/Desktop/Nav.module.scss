@@ -32,16 +32,19 @@
         height: 40px;
         top: 0;
         justify-content: flex-end;
+        position: absolute;
     }
+    
     background-color: #2b415e;
     display: flex;
+    // align-items: center;
     position: absolute;
     flex-direction: column;
     text-align: right;
     left: 0%;
     padding: 0 8px 0 0;
     // border: 1px solid black;
-    width: 380px;
+    width: 530px;
     z-index: 2;
     border-right: 3px solid #203046;
 }
@@ -100,17 +103,17 @@
 // }
 .Logo{
     @include for-phone-only{
-        position: absolute;
         left: 32px;
         // margin-top: 16px;
         font-size: 1.5em;
         top: 16px;
     }
-    z-index: 4;
     position: absolute;
-    top: 16px;
-    left: 32px;
-    font-size: 3em;
+    z-index: 4;
+    left: 128px;
+    // top: 16px;
+    // left: 32px;
+    font-size: 4.5em;
     // padding-left: 55px;
 // font-size: 2.2em;
 // padding-bottom: 20px;

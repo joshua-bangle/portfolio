@@ -7,12 +7,14 @@ import { NavLink } from 'react-router-dom'
 
 
 const Nav = (props) => {
-
+    const logoTest='<JB>';
     return(
         <Aux>
-            <span id="logo" className={styles.Logo}><a href='/'>Logo</a></span>
+
+                
+            <span id="logo" className={styles.Logo}><a href='/'>{logoTest}</a></span> 
             <nav className={styles.Nav}>
-                 
+                
                 {/* <ul className={styles.Links}>
                 
                     <li>
