@@ -17,13 +17,8 @@ const Home = () => {
                     <p>Experience</p>
                 </div>
             </Hero>
-            
             <br />
-            
-                <h1 className={styles.Header}>Projects</h1>
-            
-            
-
+            <h1 className={styles.Header}>Projects</h1>
             <Cards
             title='Spaz'
             page='/spaz'
@@ -45,6 +40,3 @@ const Home = () => {
 }
 export default Home
 
-//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change
-//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change
-//Tabs to the left of hero text seperated by vertical hr, hero text slides out from behind tabs on each page change
