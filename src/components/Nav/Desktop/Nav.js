@@ -3,16 +3,16 @@ import styles from './Nav.module.scss'
 
 import Aux from '../../../hoc/auxil'
 import { NavLink } from 'react-router-dom'
-
+import Logo from './LogoWhiteSmall.png'
 
 
 const Nav = (props) => {
-    const logoTest='<JB>';
     return(
         <Aux>
 
-                
-            <span id="logo" className={styles.Logo}><a href='/'>{logoTest}</a></span> 
+            <div className={styles.Logo}>   
+                <a href='/'><img src={Logo} id="logo" alt='logo' /></a>
+            </div>
             <nav className={styles.Nav}>
                 
                 {/* <ul className={styles.Links}>

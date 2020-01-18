@@ -64,7 +64,7 @@
     @include for-phone-only {
         display: flex;
         margin-top: 0px;
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin: 16px 16px;
     }    
 
@@ -81,7 +81,7 @@
     @include for-phone-only {
         margin-right: 16px;
     }
-    color: rgb(228, 228, 228);
+    color: rgb(199, 199, 199);
     text-decoration: none;
 }
 .Links a:hover {
@@ -89,6 +89,7 @@
 }
 .Links a.Active {
     font-family: 'Roboto 700';
+    color: rgb(228, 227, 227)
 }
 
 
@@ -97,21 +98,24 @@
         left: 32px;
         font-size: 1.5em;
         top: 16px;
+        width: 60px;
+        height: auto;
     }
     position: absolute;
     z-index: 4;
-    left: 128px;
-
+    left: 120px;
+    width: 180px;
+    height: auto;
     font-size: 4.5em;
-
-
-
 }
-.Logo a {
-    color: rgb(228, 228, 228);
-    text-decoration: none;
+.Logo img {
+    width: 100%;
 }
-.Logo a:hover,
-.Logo a:active {
-    text-decoration: underline;
-}
+// .Logo a {
+//     color: rgb(228, 228, 228);
+//     text-decoration: none;
+// }
+// .Logo a:hover,
+// .Logo a:active {
+//     text-decoration: underline;
+// }

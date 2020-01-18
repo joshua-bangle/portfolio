@@ -61,7 +61,7 @@ const Card = () => {
             </p>
             </div>
             <br />
-                <ScrollIntoView selector='#top'><Button variant="outlined">Back to top</Button></ScrollIntoView>
+                <ScrollIntoView selector='#logo'><Button variant="outlined">Back to top</Button></ScrollIntoView>
             <br />
         </div>
     )
