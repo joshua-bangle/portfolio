@@ -40,7 +40,7 @@
     flex-direction: column;
     text-align: right;
     left: 0%;
-    padding: 0 8px 0 0;
+    padding: 0 18px 0 0;
 
     width: 530px;
     z-index: 2;
@@ -75,7 +75,7 @@
     @include for-phone-only {
         margin-right: 16px;
     }
-    margin-right: 55px;
+    // margin-right: 650px;
 }
 .Links a {
     @include for-phone-only {
